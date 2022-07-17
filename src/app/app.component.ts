@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   unitPrice = 1.7797;
-  held = 0;
+  held;
   currentValue = this.unitPrice * this.held;
 
  changeHeld(heldUnits:number) {
